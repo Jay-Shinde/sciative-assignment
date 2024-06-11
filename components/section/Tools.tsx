@@ -8,7 +8,7 @@ export default function Tools() {
     },
     {
       index: "Article Generator",
-      desc: "Generate high-quality articles with ease.",
+      desc: "Generate high-quality articles with easeLorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, unde",
     },
     {
       index: "Article Generator",

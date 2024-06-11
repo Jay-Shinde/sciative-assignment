@@ -74,7 +74,7 @@ export default function Graphsection() {
   };
 
   return (
-    <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-3 md:gap-5 lg:gap-7 xl:gap-8   mt-20 mb-28">
+    <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-3 md:gap-5 lg:gap-7 xl:gap-8 bg-white  pt-20 pb-28">
       <div className="lg:w-[40%] w-[80%] flex flex-col gap-5">
         <p className="text-left font-[500] text-[20px]">
           Enter your post title and keyword

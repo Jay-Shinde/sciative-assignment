@@ -48,6 +48,24 @@ export default function Tablesection() {
       sortable: true,
     },
   ];
+
+  const customStyles = {
+    rows: {
+      style: {
+        // override the row height
+      },
+    },
+    headCells: {
+      style: {
+        background: "#8b8ee2",
+      },
+    },
+    cells: {
+      style: {
+        border: "solid 1px #8b8ee1",
+      },
+    },
+  };
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -56,11 +74,6 @@ export default function Tablesection() {
     return <div>{error}</div>;
   }
   return (
-    <DataTable
-      title="Seat Information"
-      columns={columns}
-      data={data}
-      pagination
-    />
+    <DataTable columns={columns} data={data} customStyles={customStyles} />
   );
 }

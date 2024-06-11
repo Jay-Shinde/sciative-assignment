@@ -53,21 +53,22 @@ export default function Graphsection() {
         text: "Values",
       },
     },
+
     series: [
       {
-        name: "Series 1",
+        name: "Via1",
         data: data.map((point) => point["1"]),
-        type: "line",
+        type: "column",
       },
       {
-        name: "Series 2",
+        name: "Via2",
         data: data.map((point) => point["2"]),
-        type: "line",
+        type: "column",
       },
       {
-        name: "Series 3",
+        name: "Total",
         data: data.map((point) => point["3"]),
-        type: "line",
+        type: "column",
       },
     ],
   };

@@ -28,7 +28,7 @@ export default function Tools() {
     },
   ];
   return (
-    <div className="w-full flex flex-col items-center gap-3 md:gap-5 lg:gap-7 xl:gap-8 justify-center overflow-hidden min-h-[100vh]">
+    <div className="w-full flex flex-col items-center gap-3 md:gap-5 lg:gap-7 xl:gap-8 justify-center overflow-hidden min-h-[100vh] mt-20">
       <p className="text-2xl md:text-3xl lg:text-5xl font-[500] text-center w-[90%] sm:w-[85%] md:w-[80%] max-w-[600px] lg:leading-[60px] xl:leading-[70px]">
         Most Popular Tools
       </p>
